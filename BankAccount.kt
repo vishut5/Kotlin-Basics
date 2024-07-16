@@ -9,7 +9,8 @@ class BankAccount(
 
     fun deposit(amount: Double){
         balance += amount
-        //balance = balance + amount
+        //balance = balance +   amount
+
         transactionHistory.add("$accountHolder deposited $$amount")
     }
 
